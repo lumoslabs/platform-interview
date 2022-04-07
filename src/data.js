@@ -11,43 +11,45 @@ const users = [
   {
     id: 2,
     name: 'Alejandro'
+  },
+  {
+    id: 3,
+    name: "Jean-Luc"
   }
 ];
 
 //An array of user IDs mapped to information about the games they've played.
-const userGames = [
+const userGamePlays = [
   {
-    '1': {
-      gamesPlays: [
-        {
-          id: 'train-of-thought',
-          playCount: 7
-        },
-        {
-          id: 'penguin-pursuit',
-          playCount: 3
-        }
-      ]
-    }
+    user_id: '1',
+    gamesPlays: [
+      {
+        id: 'train-of-thought',
+        playCount: 7
+      },
+      {
+        id: 'penguin-pursuit',
+        playCount: 3
+      }
+    ]
   },
   {
-    '2': {
-      gamesPlays: [
-        {
-          id: 'train-of-thought',
-          playCount: 13
-        },
-        {
-          id: 'highway-hazards',
-          playCount: 5
-        },
-        {
-          id: 'assist-ants',
-          playCount: 19
-        }
-      ]
-    }
+    user_id: '2',
+    gamesPlays: [
+      {
+        id: 'train-of-thought',
+        playCount: 13
+      },
+      {
+        id: 'highway-hazards',
+        playCount: 5
+      },
+      {
+        id: 'assist-ants',
+        playCount: 19
+      }
+    ]
   }
 ];
 
-export { userGames };
+export { users, userGamePlays };
