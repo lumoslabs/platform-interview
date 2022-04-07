@@ -1,0 +1,4 @@
+# Some of us just can't quit vim.
+*.swp
+
+node_modules

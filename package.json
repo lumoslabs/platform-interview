@@ -1,0 +1,17 @@
+{
+  "name": "platform-interview-draft",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^3.28.0",
+    "nodemon": "^2.0.15"
+  }
+}
