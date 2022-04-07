@@ -2,6 +2,30 @@
  * A set of in-memory objects that our service can read/write.
  */
 
+// An array of games.
+const games = [
+  {
+    id: 1,
+    name: 'train-of-thought',
+    description: 'Get the trains to their stations!'
+  },
+  {
+    id: 2,
+    name: 'penguin-pursuit',
+    description: 'Flightless birds? Try fearless!'
+  },
+  {
+    id: 3,
+    name: 'highway-hazards',
+    description: 'Better buckle up for this one.'
+  },
+  {
+    id: 4,
+    name: 'assist-ants',
+    description: 'Social bugs'
+  }
+];
+
 // An array of user objects.
 const users = [
   {
@@ -52,4 +76,4 @@ const userGamePlays = [
   }
 ];
 
-export { users, userGamePlays };
+export { games, users, userGamePlays };
