@@ -13,6 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "fastify": "^3.28.0",
+    "jsonwebtoken": "^8.5.1",
     "nodemon": "^2.0.15"
   }
 }
