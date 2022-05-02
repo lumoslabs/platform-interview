@@ -1,14 +1,15 @@
-# Generic Service
 
-This project includes a generic HTTP service of the sort folks working on the
-Platform team might encounter. It provides a read-only API that allows one to
-request information on users, games, and game plays by user.
-
-## Purpose
+# Purpose
 
 This project exists as a basis on which programming interviews might proceed.
 For example, we might ask a candidate to add support to update users. Perhaps
 we'd ask a candidate to add support for Typescript and update one module.
+
+## Generic Service
+
+This project includes a generic HTTP service of the sort folks working on the
+Platform team might encounter. It provides a read-only API that allows one to
+request information on users, games, and game plays by user.
 
 ## Authentication
 
