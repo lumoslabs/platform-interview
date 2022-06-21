@@ -1,9 +1,21 @@
-
 # Purpose
 
 This project exists as a basis on which programming interviews might proceed.
 For example, we might ask a candidate to add support to update users. Perhaps
 we'd ask a candidate to add support for Typescript and update one module.
+
+## Setup
+
+```sh
+# Setup dependencies
+npm install
+
+# To generate a JWT token
+npm run gen-token
+
+# To run the server
+npm run start
+```
 
 ## Generic Service
 
@@ -21,7 +33,7 @@ As needed, the `gen-token.js` script at the root of this project can be used to
 generate a valid JWT, like so (actual JWT truncated for brevity):
 
 ```bash
-❯ node gen-token.js
+❯ npm run gen-token
 eyJhbGciOiJSUzI1NiIsIn...
 {
   aud: 'https://fake-api.lumosity.com',
